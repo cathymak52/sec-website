@@ -5,6 +5,10 @@ import { IconContext } from "react-icons/lib";
 // import { NavLink } from "react-router-dom";
 import { Button } from '../../globalStyles';
 
+
+
+
+
 import {
   Nav,
   NavBarContainer,
@@ -63,22 +67,7 @@ window.addEventListener('resize', showButton);
                 <NavLinks to="/products">Products</NavLinks>
               </NavItem>
 
-              <NavItemBtn>
-                {button ? (
-
-                  <NavBtnLink to="/sign-up">
-                  
-                    <Button primary>SIGN UP</Button>
-                  </NavBtnLink>
-                ) : (
-                  <NavBtnLink to="/sign-up">
-<Button fontBig primary>
-  SIGN UP
-</Button>
-
-                  </NavBtnLink>
-                )}
-              </NavItemBtn>
+              
             </NavMenu>
           </NavBarContainer>
         </Nav>

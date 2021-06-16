@@ -11,6 +11,7 @@ import ScrollToTop from './components/ScrollToTop';
 
 
 
+
 function App() {
   return (
     <Router>
@@ -25,9 +26,13 @@ function App() {
       <Route path="/sign-up" exact component={SignUp} />
     </Switch>
 
+
     <Footer />
     </Router>
-  );
+
+     
+);
+ 
 }
 
 export default App;

@@ -1,16 +1,25 @@
 import React from "react";
-import { homeObjThree} from './Data'
+import { homeObjFive} from './Data'
 import { InfoSection } from '../../components'
+
+
+
 
 const Home = () => {
   return (
-    <>
+    
+
      
-      <InfoSection {...homeObjThree} />
-      
-     
-    </>
-  );
+      < homeObjFive />
+  )
 };
 
 export default Home;
+
+
+
+
+
+
+
+

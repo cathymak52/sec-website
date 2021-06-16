@@ -72,3 +72,21 @@ export const homeObjOne = {
     start: 'true'
   };
  
+  
+  export const homeObjFive = {
+    primary: true,
+    lightBg: false,
+    lightTopLine: true,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: '',
+    headline: 'Contact Form',
+    description:
+      'Name:',
+    buttonLabel: 'Get Started',
+   
+
+    
+    start: ''
+  };
+ 
