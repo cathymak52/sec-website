@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 
 import { FaTimes, FaBars } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
-// import { NavLink } from "react-router-dom";
-import { Button } from '../../globalStyles';
+ 
+ 
 
 
 
